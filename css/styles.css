@@ -1,0 +1,209 @@
+
+#title{
+    background: #ff4c68;
+}
+.container-fluid{ 
+    padding: 3% 15% 15%;
+    background: #ff4c68;
+}
+h1{
+    font-family: "Montserrat", sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    color: #fff;
+}
+/* Navigation bar */
+.navbar{
+    padding-bottom: 5rem;
+}
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.nav-item{
+    padding: 0 30px;
+}
+.nav-link{
+    font-size: 1.5rem;
+    font-family: 'Open Sans', sans-serif;
+}
+/* Download Button's */
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+/* Title image */
+.Title-img{
+    width: 23%;
+    transform: rotate(25deg);
+    position: absolute;
+    margin-left: 3%;
+}
+/* Features */
+#features{
+    padding: 10% 10%;
+    text-align: center;
+    background: white;
+    position: relative;
+    z-index: 1; 
+}
+.row h3{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 2rem;
+    /* text-align: center; */
+}
+.row p{
+    color: #8f8f8f;
+    padding: 15%;
+    padding-top: 0;
+}
+.icon{
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+.icon:hover{
+    color: #ff4c68;
+}
+/* testimonials */
+#carouselExampleIndicators{
+    background: #ef8172;
+    color: white;
+    padding: 5% 20%;
+    text-align: center;
+    padding-bottom: 5%;
+}
+.testimonial-text{
+    font-family: Montserrat;
+    font-size: 3rem;
+    line-height: 5rem;
+    padding: 0 5%;
+}
+.testimonial-img{
+    border-radius: 100%;
+    width: 15%;
+    margin: 20px;
+    margin-bottom: 10px;
+}
+#press{
+    background: #ef8172;
+    padding-bottom: 3%;
+    text-align: center;
+}
+.press-logo{
+    width: 14%;
+    margin-left: 5%;
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+em{
+    font-size: 1.7rem;
+}
+
+/* Pricing section */
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+.Pricing-column{
+    margin: 3% 3%;
+}
+#pricing p{
+    padding: 3%;
+}
+#pricing .btn{
+    height: 4rem;
+}
+#pricing h2{
+    font-family: Montserrat;
+    font-size: 3rem;
+}
+#pricing h3{
+    font-size: 2rem;
+}
+
+/* Call to Action */
+#cta{
+    background: #ff4c68;
+    padding: 3% 10% 10%;
+    text-align: center;
+}
+#cta h3{
+    color: white;
+    font-family: Montserrat;
+    font-size: 4rem;
+    padding: 3% 10% 0;
+}
+.ctn-download-button{
+        margin: 4% 3% 5% 0;
+        font-size: 2rem;
+        padding: 0.5% 1%;
+}
+
+/* Footer */
+#footer{
+    padding: 7% 10% 7%;
+    text-align: center;
+}
+#footer p{
+    font-size: 1.3rem;
+    padding:1%;
+    color: #8f8f8f;
+}
+.footer-icon{
+    color: black;
+    padding: 30px 20px;
+}
+
+/* Media Qurery Breakpoints */
+@media (max-width: 1050px) {
+    #title{
+        text-align: center;
+    }
+    .Title-img{
+        position: static;
+        transform: rotate(0);
+        width: 50%;
+        margin-left: 0;
+    } 
+    .navbar{
+        padding-bottom: 1rem;
+    }
+    h1{
+        font-size: 3.5rem;
+    }
+    .navbar-brand{
+        font-size: 2.5rem;
+    }
+    .container-fluid{
+        padding-bottom: 5%;
+        padding: 8%;
+        padding-top: 1%;
+    }
+    #features{
+        padding: 5% 10%;
+    }
+    .testimonial-text{
+        font-size: 2rem;
+        line-height: 3rem;
+        padding-top: 5%;
+    }
+    em{
+        font-size: 1.3rem;
+    }
+    #cta h3{
+        font-size: 3rem;
+    }
+    .ctn-download-button{
+        font-size: 1.5rem;
+        padding: 0.5% 1%;
+    }
+    #cta{
+        padding: 10% 10% 10%;
+    }
+    #pricing{
+        padding: 50px;
+    }
+    #pricing h2{
+        font-size: 2.5rem;
+    }
+}
